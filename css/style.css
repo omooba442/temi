@@ -3611,9 +3611,7 @@ Page Title
     top: 0;
     height: 100%;
     width: 100%;
-    background: #000ec1;
-    background: -o-radial-gradient(center, ellipse, #000ec1 0%, #000c47 56%, #000c47 100%);
-    background: radial-gradient(ellipse at center, #000ec1 0%, #000c47 56%, #000c47 100%);
+   
     opacity: .90;
     content: "";
 }
@@ -5018,7 +5016,7 @@ a.ui-button:active,
     display: block;
     font-size: 16px;
     font-weight: 700;
-    color: #ff4200;
+    color: 46a428;
 }
 
 
@@ -6696,7 +6694,7 @@ a.ui-button:active,
 
 .schedule-block .speaker-info .name {
     font-size: 20px;
-    color: #ff4200;
+    color: 46a428;
     font-weight: 700;
     line-height: 1em;
 }
@@ -6898,7 +6896,7 @@ a.ui-button:active,
     padding-top: 5px;
     font-size: 16px;
     line-height: 1.2em;
-    color: #ff4200;
+    color: 46a428;
     font-weight: 700;
 }
 
@@ -6956,7 +6954,7 @@ a.ui-button:active,
 
 .schedule-block-two .speaker-info .name {
     font-size: 20px;
-    color: #ff4200;
+    color: 46a428;
     font-weight: 700;
     line-height: 1em;
 }
@@ -7162,7 +7160,7 @@ a.ui-button:active,
     -ms-flex-pack: end;
     justify-content: flex-end;
     font-size: 20px;
-    color: #ff4200;
+    color: 46a428;
     font-weight: 700;
     line-height: 1em;
     margin-bottom: 20px;
@@ -7346,7 +7344,7 @@ a.ui-button:active,
 
 .schedule-detail .speaker-info .name {
     font-size: 20px;
-    color: #ff4200;
+    color: 46a428;
     font-weight: 700;
     line-height: 1em;
 }
@@ -7504,7 +7502,7 @@ Accordian Box
 
 .accordion-box .block .acc-btn.active {
     background: #f5f5f5;
-    color: #ff4200;
+    color: 46a428;
 }
 
 .accordion-box .block .acc-btn .icon {
@@ -7532,7 +7530,7 @@ Accordian Box
 }
 
 .accordion-box .block .acc-btn.active .icon {
-    background-color: #ff4200;
+    background-color: 46a428;
 }
 
 .accordion-box .block .acc-btn.active .icon:before {
@@ -7888,7 +7886,7 @@ Accordian Box
     -ms-flex-align: center;
     align-items: center;
     font-size: 72px;
-    color: #ff4200;
+    color: 46a428;
     font-weight: bold;
     line-height: 1.2;
     font-family: 'Exo', sans-serif;
@@ -8361,7 +8359,7 @@ Accordian Box
     -ms-flex-align: center;
     align-items: center;
     font-size: 72px;
-    color: #ff4200;
+    color: 46a428;
     font-weight: bold;
     line-height: 1.2;
     font-family: 'Exo', sans-serif;
@@ -8701,7 +8699,7 @@ Accordian Box
 
 .news-block .author .likes span {
     margin-right: 5px;
-    color: #ff4200;
+    color: 46a428;
 }
 
 .news-block h4 {
@@ -8751,7 +8749,7 @@ Accordian Box
 
 .news-block .post-info li span {
     margin-right: 10px;
-    color: #ff4200;
+    color: 46a428;
 }
 
 
@@ -8989,7 +8987,7 @@ Accordian Box
 }
 
 .post-share-options .tags a:hover {
-    color: #ff4200;
+    color: 46a428;
 }
 
 .post-share-options .social-icon {
@@ -9022,7 +9020,7 @@ Accordian Box
 
 .post-share-options .social-icon li a:hover {
     color: #ffffff;
-    background-color: #ff4200;
+    background-color: 46a428;
 }
 
 
@@ -9129,7 +9127,7 @@ Accordian Box
 }
 
 .author-box .social-links li a:hover {
-    color: #ff4200;
+    color: 46a428;
 }
 
 
@@ -9442,7 +9440,7 @@ Accordian Box
 
 .sidebar .popular-posts .post-info i {
     font-size: 16px;
-    color: #ff4200;
+    color: 46a428;
     margin-right: 10px;
 }
 
@@ -9596,7 +9594,7 @@ Accordian Box
     align-items: center;
     font-size: 16px;
     line-height: 20px;
-    color: #ff4200;
+    color: 46a428;
 }
 
 .comments-area .comment-box .reply-btn i {
@@ -10178,8 +10176,8 @@ Accordian Box
 }
 
 .map-section .contact-info li:nth-child(3) .icon {
-    color: #ff4200;
-    border-color: #ff4200;
+    color: 46a428;
+    border-color: 46a428;
 }
 
 .map-section .map-outer {
