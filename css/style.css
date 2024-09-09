@@ -263,7 +263,7 @@ li {
     height: 30px;
     width: 50px;
     font-size: 14px;
-    color: #081245;
+    color: #46A428;
     line-height: 30px;
     border-radius: 50px;
     text-align: center;
@@ -280,7 +280,7 @@ li {
 
 .default-nav .owl-next:hover,
 .default-nav .owl-prev:hover {
-    background: #081245;
+    background: #46A428;
     color: #ffffff;
 }
 
@@ -387,7 +387,7 @@ li {
     width: 40px;
     line-height: 40px;
     text-align: center;
-    background-color: #00082e;
+    background-color: #000000;
     border-radius: 0 0 50% 50%;
     -webkit-transition: all 500ms ease;
     -o-transition: all 500ms ease;
@@ -476,7 +476,7 @@ li {
     width: 28px;
     line-height: 34px;
     text-align: center;
-    background-color: #00082e;
+    background-color: #000000;
     -webkit-transition: all 500ms ease;
     -o-transition: all 500ms ease;
     transition: all 500ms ease;
@@ -1350,7 +1350,7 @@ hr {
     top: 0;
     bottom: 30px;
     width: 100%;
-    background-color: #00082e;
+    background-color: #000000;
     content: "";
 }
 
@@ -1586,7 +1586,7 @@ hr {
     line-height: 30px;
     font-weight: 600;
     padding: 20px 0;
-    color: #081245;
+    color: #46A428;
     opacity: 1;
     text-align: center;
     -webkit-transition: all 300ms ease;
@@ -1862,7 +1862,7 @@ hr {
 
 .main-header .theme-btn {
     margin-left: 30px;
-    background-color: #081245;
+    background-color: #46A428;
     white-space: nowrap;
     display: block;
 }
@@ -1952,7 +1952,7 @@ hr {
 
 .main-menu .navigation > li .mega-menu-bar h3{
     position:relative;
-    color: #00082e;
+    color: #000000;
     font-size:18px;
     font-weight:500;
     padding-bottom:10px;
@@ -2047,7 +2047,7 @@ hr {
     -webkit-transform: translateY(-100%);
     -ms-transform: translateY(-100%);
     transform: translateY(-100%);
-    background-color: #00082e;
+    background-color: #000000;
     z-index: 99999;
     visibility: hidden;
     -webkit-transition: all 500ms cubic-bezier(0.860, 0.000, 0.070, 1.000);
@@ -2531,7 +2531,7 @@ hr {
     position: relative;
     font-size: 20px;
     line-height: 20px;
-    color: #081245;
+    color: #46A428;
     top: 5px;
 }
 
@@ -2568,7 +2568,7 @@ hr {
     font-size: 26px;
     line-height: 20px;
     cursor: pointer;
-    color: #081245;
+    color: #46A428;
     display: none;
     top: 0px;
     margin-left: 20px;
@@ -2852,7 +2852,7 @@ hr {
     height: 50px;
     font-size: 14px;
     text-align: center;
-    color: #081245;
+    color: #46A428;
     -webkit-transition: all 300ms ease;
     -o-transition: all 300ms ease;
     transition: all 300ms ease;
@@ -3192,7 +3192,7 @@ hr {
     background: #ffffff;
     font-size: 14px;
     text-align: center;
-    color: #081245;
+    color: #46A428;
     -webkit-transition: all 300ms ease;
     -o-transition: all 300ms ease;
     transition: all 300ms ease;
@@ -3214,7 +3214,7 @@ hr {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    background: #081245;
+    background: #46A428;
     border-radius: 50px;
     padding-left: 20px;
     width: 100%;
@@ -3226,7 +3226,7 @@ hr {
     left: -15px;
     top: 0;
     border-radius: 0 30px 30px 0;
-    background: #081245;
+    background: #46A428;
     height: 100%;
     content: "";
     -webkit-transform: skew(-20deg);
@@ -3241,7 +3241,7 @@ hr {
     width: 80%;
     height: 4px;
     content: "";
-    background: #081245;
+    background: #46A428;
     -webkit-transform: skew(-20deg);
     -ms-transform: skew(-20deg);
     transform: skew(-20deg);
@@ -3402,7 +3402,7 @@ Page Title
 .sec-title .sub-title {
     display: block;
     font-size: 16px;
-    color: #fe00c5;
+    color: red;
     font-weight: 700;
     font-family: 'Exo', sans-serif;
     margin-bottom: 15px;
@@ -3412,7 +3412,7 @@ Page Title
     display: block;
     font-size: 36px;
     line-height: 48px;
-    color: #081245;
+    color: #46A428;
     font-weight: 700;
 }
 
@@ -3495,7 +3495,7 @@ Page Title
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(1, 12, 52, 0.9);
+    background-color: rgba(130, 130, 130, 0);
 }
 
 .main-slider .tp-dottedoverlay:before {
@@ -3504,7 +3504,7 @@ Page Title
     bottom: 5%;
     height: 100%;
     width: 200%;
-    background-color: rgba(255, 0, 207, 0.1);
+    background-color: rgba(88, 88, 88, 0.1);
     content: "";
     -webkit-transform: rotate(-25deg);
     -ms-transform: rotate(-25deg);
@@ -4203,7 +4203,7 @@ a.ui-button:active,
     color: #ffffff;
     line-height: 50px;
     text-align: center;
-    background-color: #081245;
+    background-color: #46A428;
     -webkit-transition: all 300ms ease;
     -o-transition: all 300ms ease;
     transition: all 300ms ease;
@@ -4216,7 +4216,7 @@ a.ui-button:active,
 
 .banner-section-two .owl-next:hover,
 .banner-section-two .owl-prev:hover {
-    background: #081245;
+    background: #46A428;
     color: #ffffff;
 }
 
@@ -4579,7 +4579,7 @@ a.ui-button:active,
 
 .date-box-one.bg_yellow .month,
 .date-box-one.bg_yellow .day {
-    color: #081245;
+    color: #46A428;
 }
 
 .date-box-one.bg_yellow .title:before {
@@ -4893,7 +4893,7 @@ a.ui-button:active,
     position: relative;
     font-size: 58px;
     line-height: 1em;
-    color: #fe00c5;
+    color: red;
 }
 
 .feature-block-four h4 {
@@ -4973,7 +4973,7 @@ a.ui-button:active,
     position: relative;
     font-size: 62px;
     line-height: 1em;
-    color: #fe00c5;
+    color: red;
     -webkit-transition: all 300ms ease;
     -o-transition: all 300ms ease;
     transition: all 300ms ease;
@@ -5005,7 +5005,7 @@ a.ui-button:active,
 
 .feature-block h4 {
     font-size: 22px;
-    color: #081245;
+    color: #46A428;
     font-weight: 700;
     margin-bottom: 24px;
 }
@@ -5106,7 +5106,7 @@ a.ui-button:active,
     position: relative;
     font-size: 62px;
     line-height: 1em;
-    color: #fe00c5;
+    color: red;
     -webkit-transition: all 300ms ease;
     -o-transition: all 300ms ease;
     transition: all 300ms ease;
@@ -5128,7 +5128,7 @@ a.ui-button:active,
 
 .feature-block-two h4 {
     font-size: 22px;
-    color: #081245;
+    color: #46A428;
     font-weight: 700;
     margin-bottom: 14px;
     -webkit-transition: all 300ms ease;
@@ -5292,7 +5292,7 @@ a.ui-button:active,
     position: relative;
     font-size: 68px;
     line-height: 1em;
-    color: #fe00c5;
+    color: red;
     -webkit-transition: all 300ms ease;
     -o-transition: all 300ms ease;
     transition: all 300ms ease;
@@ -5585,7 +5585,7 @@ a.ui-button:active,
 }
 
 .speaker-block .inner-box:hover .image-box:before {
-    border: 3px solid #081245;
+    border: 3px solid #46A428;
     border-color: #fdb900;
     opacity: 1;
 }
@@ -5612,7 +5612,7 @@ a.ui-button:active,
     line-height: 50px;
     text-align: center;
     font-size: 20px;
-    color: #081245;
+    color: #46A428;
     border-radius: 50%;
     background-color: #ffba00;
     -webkit-transition: all 300ms ease;
@@ -5668,7 +5668,7 @@ a.ui-button:active,
     text-align: center;
     border-radius: 50%;
     background-color: #ffba00;
-    color: #081245;
+    color: #46A428;
     -webkit-transition: all 300ms ease;
     -o-transition: all 300ms ease;
     transition: all 300ms ease;
@@ -5676,7 +5676,7 @@ a.ui-button:active,
 
 .speaker-block .social-links a:hover {
     color: #ffffff;
-    background-color: #081245;
+    background-color: #46A428;
 }
 
 .speaker-block .info-box {
@@ -5713,7 +5713,7 @@ a.ui-button:active,
 
 .speakers-section-two {
     padding: 90px 0 50px;
-    background-color: #081245;
+    background-color: #46A428;
     background-image: url(../images/background/10.jpg);
     overflow: hidden;
 }
@@ -5800,7 +5800,7 @@ a.ui-button:active,
     line-height: 50px;
     text-align: center;
     font-size: 20px;
-    color: #081245;
+    color: #46A428;
     border-radius: 50%;
     background-color: #ffffff;
     -webkit-transition: all 300ms ease;
@@ -5856,7 +5856,7 @@ a.ui-button:active,
     text-align: center;
     border-radius: 50%;
     background-color: #ffba00;
-    color: #081245;
+    color: #46A428;
     -webkit-transition: all 300ms ease;
     -o-transition: all 300ms ease;
     transition: all 300ms ease;
@@ -5869,7 +5869,7 @@ a.ui-button:active,
 
 .speaker-block-two .social-links a:hover {
     color: #ffffff;
-    background-color: #081245;
+    background-color: #46A428;
 }
 
 .speaker-block-two .info-box {
@@ -6109,7 +6109,7 @@ a.ui-button:active,
     width: 40px;
     border: 1px solid #1f1b79;
     border-radius: 50%;
-    color: #081245;
+    color: #46A428;
     font-size: 16px;
     -webkit-transition: all 300ms ease;
     -o-transition: all 300ms ease;
@@ -6293,7 +6293,7 @@ a.ui-button:active,
 .speaker-session-info h4 {
     position: relative;
     font-size: 24px;
-    color: #fe00c5;
+    color: red;
     font-weight: 600;
     margin-bottom: 15px;
 }
@@ -6440,7 +6440,7 @@ a.ui-button:active,
     top: -1px;
     min-width: 120px;
     padding: 10px 20px;
-    color: #081245;
+    color: #46A428;
     font-size: 18px;
     line-height: 20px;
     font-weight: 600;
@@ -6456,8 +6456,8 @@ a.ui-button:active,
 }
 
 .schedule-tabs .tab-buttons li.active-btn .day {
-    background-color: #081245;
-    border: 1px solid #081245;
+    background-color: #46A428;
+    border: 1px solid #46A428;
     color: #ffffff;
 }
 
@@ -6483,7 +6483,7 @@ a.ui-button:active,
     display: block;
     font-weight: 700;
     font-size: 18px;
-    color: #081245;
+    color: #46A428;
     line-height: 1em;
     text-transform: uppercase;
     font-family: 'Exo', sans-serif;
@@ -6493,7 +6493,7 @@ a.ui-button:active,
     display: block;
     font-size: 24px;
     line-height: 1em;
-    color: #fe00c5;
+    color: red;
 }
 
 .schedule-timeline {
@@ -6710,13 +6710,13 @@ a.ui-button:active,
     position: relative;
     font-size: 24px;
     line-height: 1.2em;
-    color: #081245;
+    color: #46A428;
     font-weight: 700;
     padding-top: 15px;
 }
 
 .schedule-block h4 a {
-    color: #081245;
+    color: #46A428;
     display: inline-block;
     -webkit-transition: all 300ms ease;
     -o-transition: all 300ms ease;
@@ -6886,7 +6886,7 @@ a.ui-button:active,
     line-height: 50px;
     text-align: center;
     font-size: 24px;
-    color: #081245;
+    color: #46A428;
     font-weight: 700;
     font-family: 'Evo', sans-serif;
     -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .13);
@@ -6906,21 +6906,21 @@ a.ui-button:active,
     position: relative;
     font-size: 12px;
     line-height: 1.2em;
-    color: #081245;
+    color: #46A428;
 }
 
 .schedule-block-two h3 {
     position: relative;
     font-size: 24px;
     line-height: 1.2em;
-    color: #081245;
+    color: #46A428;
     font-weight: 700;
     max-width: 380px;
     padding-right: 20px;
 }
 
 .schedule-block-two h3 a {
-    color: #081245;
+    color: #46A428;
     display: inline-block;
     -webkit-transition: all 300ms ease;
     -o-transition: all 300ms ease;
@@ -7008,7 +7008,7 @@ a.ui-button:active,
 }
 
 .schedule-tabs .tab-buttons.style-two li.active-btn {
-    background-color: #081245;
+    background-color: #46A428;
     -webkit-box-shadow: 0 10px 16px rgba(0, 0, 0, .30);
     box-shadow: 0 10px 16px rgba(0, 0, 0, .30);
 }
@@ -7182,13 +7182,13 @@ a.ui-button:active,
     position: relative;
     font-size: 30px;
     line-height: 1.2em;
-    color: #081245;
+    color: #46A428;
     font-weight: 700;
     margin-bottom: 25px;
 }
 
 .schedule-block-three .speaker-info h3 a {
-    color: #081245;
+    color: #46A428;
     display: inline-block;
     -webkit-transition: all 300ms ease;
     -o-transition: all 300ms ease;
@@ -7206,7 +7206,7 @@ a.ui-button:active,
 }
 
 .schedule-block-three .speaker-info .location strong {
-    color: #081245;
+    color: #46A428;
     font-weight: 700;
 }
 
@@ -7390,7 +7390,7 @@ a.ui-button:active,
     display: block;
     font-size: 32px;
     line-height: 1.2em;
-    color: #081245;
+    color: #46A428;
     font-weight: 700;
     margin-bottom: 25px;
 }
@@ -7426,7 +7426,7 @@ a.ui-button:active,
 .schedule-detail .two-column h4 {
     font-size: 24px;
     line-height: 1.2em;
-    color: #081245;
+    color: #46A428;
     font-weight: 700;
     margin-bottom: 20px;
     margin-top: 20px;
@@ -7670,9 +7670,9 @@ Accordian Box
     top: 0;
     height: 100%;
     width: 100%;
-    background: #00082e;
-    background: -o-linear-gradient(45deg, #00082e 0%, #081245 100%);
-    background: linear-gradient(45deg, #00082e 0%, #081245 100%);
+    background: #000000;
+    background: -o-linear-gradient(45deg, #000000 0%, #46A428 100%);
+    background: linear-gradient(45deg, #000000 0%, #46A428 100%);
     opacity: .90;
     content: "";
 }
@@ -7809,9 +7809,9 @@ Accordian Box
 
 .pricing-block .inner-box {
     position: relative;
-    background: #081245;
-    background: -o-linear-gradient(45deg, #081245 0%, #001376 100%);
-    background: linear-gradient(45deg, #081245 0%, #001376 100%);
+    background: #46A428;
+    background: -o-linear-gradient(45deg, #46A428 0%, #001376 100%);
+    background: linear-gradient(45deg, #46A428 0%, #001376 100%);
     max-width: 370px;
     margin: 0 auto;
     padding: 50px 55px 50px;
@@ -8009,9 +8009,9 @@ Accordian Box
 
 .pricing-block-two .inner-box {
     position: relative;
-    background: #081245;
-    background: -o-linear-gradient(45deg, #081245 0%, #001376 100%);
-    background: linear-gradient(45deg, #081245 0%, #001376 100%);
+    background: #46A428;
+    background: -o-linear-gradient(45deg, #46A428 0%, #001376 100%);
+    background: linear-gradient(45deg, #46A428 0%, #001376 100%);
     -webkit-box-shadow: 0 6px 28px rgba(0, 0, 0, .13);
     box-shadow: 0 6px 28px rgba(0, 0, 0, .13);
     max-width: 350px;
@@ -8533,7 +8533,7 @@ Accordian Box
     display: block;
     font-size: 18px;
     line-height: 1.2em;
-    color: #081245;
+    color: #46A428;
     font-weight: 700;
 }
 
@@ -8709,13 +8709,13 @@ Accordian Box
     display: block;
     font-size: 24px;
     line-height: 1.4em;
-    color: #081245;
+    color: #46A428;
     font-weight: 700;
     margin-bottom: 15px;
 }
 
 .news-block h4 a {
-    color: #081245;
+    color: #46A428;
     display: inline-block;
     -webkit-transition: all 300ms ease;
     -o-transition: all 300ms ease;
@@ -8975,7 +8975,7 @@ Accordian Box
     text-transform: uppercase;
     font-family: 'Exo', sans-serif;
     font-weight: 700;
-    color: #081245;
+    color: #46A428;
 }
 
 .post-share-options .tags a {
@@ -9011,7 +9011,7 @@ Accordian Box
     display: inline-block;
     font-size: 14px;
     line-height: 40px;
-    color: #081245;
+    color: #46A428;
     width: 30px;
     text-align: center;
     background: #ebebeb;
@@ -9120,7 +9120,7 @@ Accordian Box
     display: inline-block;
     font-size: 14px;
     line-height: 40px;
-    color: #081245;
+    color: #46A428;
     width: 30px;
     text-align: center;
     -webkit-transition: all 300ms ease;
@@ -9358,7 +9358,7 @@ Accordian Box
     text-align: center;
     background-color: #ffffff;
     border-right: 1px solid #e1e1e1;
-    color: #081245;
+    color: #46A428;
     -webkit-transition: all 300ms ease;
     -o-transition: all 300ms ease;
     transition: all 300ms ease;
@@ -9371,7 +9371,7 @@ Accordian Box
 
 .author-block h5 {
     font-size: 20px;
-    color: #081245;
+    color: #46A428;
     font-weight: 700;
     margin-bottom: 10px;
 }
@@ -9416,12 +9416,12 @@ Accordian Box
     font-size: 18px;
     line-height: 26px;
     font-weight: 600;
-    color: #081245;
+    color: #46A428;
     margin: 0px;
 }
 
 .sidebar .popular-posts .post h6 a {
-    color: #081245;
+    color: #46A428;
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
@@ -9473,8 +9473,8 @@ Accordian Box
 }
 
 .sidebar .popular-tags a:hover {
-    background: #081245;
-    border-color: #081245;
+    background: #46A428;
+    border-color: #46A428;
     color: #ffffff;
 }
 
@@ -9497,7 +9497,7 @@ Accordian Box
     display: block;
     font-size: 24px;
     line-height: 1.2em;
-    color: #081245;
+    color: #46A428;
     font-weight: 600;
 }
 
@@ -9566,7 +9566,7 @@ Accordian Box
     font-size: 20px;
     line-height: 30px;
     font-weight: 700;
-    color: #081245;
+    color: #46A428;
     margin-right: 10px;
 }
 
@@ -9857,7 +9857,7 @@ Accordian Box
 }
 
 .gallery-block .overlay-box h3 a:hover {
-    color: #081245;
+    color: #46A428;
 }
 
 .gallery-block .overlay-box .text {
@@ -9944,7 +9944,7 @@ Accordian Box
     line-height: 37px;
     font-weight: 400;
     font-size: 18px;
-    color: #081245;
+    color: #46A428;
     z-index: 2;
     border-bottom: 3px solid #d9d9d9;
     -webkit-transition: all 300ms ease;
@@ -9977,10 +9977,10 @@ Accordian Box
 
 .styled-pagination li.next-post a,
 .styled-pagination li.prev-post a {
-    background: #081245;
+    background: #46A428;
     font-size: 16px;
     color: #ffffff;
-    border-color: #081245;
+    border-color: #46A428;
 }
 
 .styled-pagination li.next-post a:hover,
@@ -10142,7 +10142,7 @@ Accordian Box
     display: block;
     font-size: 24px;
     line-height: 30px;
-    color: #081245;
+    color: #46A428;
     font-weight: 700;
     margin-bottom: 8px;
 }
@@ -10158,7 +10158,7 @@ Accordian Box
     line-height: 58px;
     background-color: #f5f5f5;
     border-bottom: 2px solid #001376;
-    color: #081245;
+    color: #46A428;
 }
 
 .map-section .contact-info li a {
@@ -10173,8 +10173,8 @@ Accordian Box
 }
 
 .map-section .contact-info li:nth-child(2) .icon {
-    color: #fe00c5;
-    border-color: #fe00c5;
+    color: red;
+    border-color: red;
 }
 
 .map-section .contact-info li:nth-child(3) .icon {
@@ -10402,7 +10402,7 @@ Accordian Box
 
 .subscribe-section h3 {
     font-size: 36px;
-    color: #081245;
+    color: #46A428;
     font-weight: 700;
 }
 
@@ -10994,7 +10994,7 @@ Accordian Box
 }
 
 .main-footer.style-two .footer-bottom {
-    background: #081245;
+    background: #46A428;
     padding: 15px 0;
 }
 
@@ -11071,7 +11071,7 @@ Accordian Box
 }
 
 .main-footer.style-three .footer-bottom {
-    background: #081245;
+    background: #46A428;
     padding: 15px 0;
 }
 
@@ -11267,7 +11267,7 @@ Accordian Box
     height: 60px;
     line-height: 40px;
     font-size: 18px;
-    color: #081245;
+    color: #46A428;
     background-color: transparent;
     -webkit-transition: all 300ms ease;
     -o-transition: all 300ms ease;
@@ -11607,7 +11607,7 @@ Accordian Box
     display: block;
     overflow: hidden;
     border-radius: 0px;
-    border: 4px solid #081245;
+    border: 4px solid #46A428;
 }
 
 .single-product-item .img-holder::before {
@@ -11936,7 +11936,7 @@ Accordian Box
 }
 
 .product-details .basic-details .details-header .rating span {
-    color: #081245;
+    color: #46A428;
 }
 
 .product-details .basic-details .details-header .rating .fa {
@@ -12051,7 +12051,7 @@ Accordian Box
 
 .shop-list li a {
     position: relative;
-    color: #081245;
+    color: #46A428;
     font-size: 14px;
     font-weight: 700;
     margin-top: 0px;
@@ -12233,7 +12233,7 @@ Accordian Box
     position: relative;
     float: left;
     margin-left: 40px;
-    color: #081245;
+    color: #46A428;
     line-height: 30px;
     font-size: 14px;
     margin-bottom: 10px;
@@ -12298,7 +12298,7 @@ Accordian Box
 .shop-page .prod-tabs .add-review .rating .rate-box:hover,
 .shop-page .prod-tabs .add-review .rating .rate-box:focus,
 .shop-page .prod-tabs .add-review .rating .rate-box:active {
-    color: #081245;
+    color: #46A428;
 }
 
 .shop-page .prod-tabs .add-review label {
@@ -12401,7 +12401,7 @@ Accordian Box
     text-transform: uppercase;
     font-size: 16px;
     border-radius: 0px;
-    background: #081245;
+    background: #46A428;
     color: #1f1f1f;
 }
 
@@ -12477,7 +12477,7 @@ Accordian Box
 .cart-table tbody tr .remove-btn {
     position: relative;
     font-size: 18px;
-    color: #081245;
+    color: #46A428;
     display: inline-block;
     -webkit-transition: all 500ms ease;
     -o-transition: all 500ms ease;
@@ -12581,7 +12581,7 @@ Accordian Box
     display: block;
     line-height: 26px;
     padding: 12px 0px;
-    border-bottom: 2px solid #081245;
+    border-bottom: 2px solid #46A428;
     height: 54px;
     width: 230px;
     background: none;
@@ -12692,7 +12692,7 @@ Accordian Box
     font-weight: 400;
     padding: 17px 43px 14px;
     cursor: pointer;
-    background-color: #081245;
+    background-color: #46A428;
 }
 
 
@@ -12728,7 +12728,7 @@ Accordian Box
 }
 
 .checkout-page .default-links li a {
-    color: #081245;
+    color: #46A428;
     text-decoration: underline;
 }
 
@@ -12828,7 +12828,7 @@ Accordian Box
 .shop-form input:focus,
 .shop-form select:focus,
 .shop-form textarea:focus {
-    border-color: #081245;
+    border-color: #46A428;
 }
 
 
@@ -13114,7 +13114,7 @@ Accordian Box
 .styled-form input:focus,
 .styled-form select:focus,
 .styled-form textarea:focus {
-    border-color: #081245;
+    border-color: #46A428;
 }
 
 .styled-form .form-group .theme-btn {

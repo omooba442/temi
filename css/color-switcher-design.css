@@ -92,7 +92,7 @@
 }
 
 .palate.default-color {
-    background: #00082e none repeat scroll 0 0;
+    background: #000000 none repeat scroll 0 0;
 }
 
 .palate.green-color {
@@ -253,7 +253,7 @@
 }
 
 .color-palate .purchase-btn:hover{
-    background-color: #00082e;
+    background-color: #000000;
 }
 
 
