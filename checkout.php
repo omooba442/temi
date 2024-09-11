@@ -21,7 +21,14 @@
 </head>
 
 <body>
-
+    <?php
+    error_reporting(error_level:E_ALL);
+    if ($_POST){
+        $products=$_REQUEST["products"];
+        $quantity=$_REQUEST["quantity"];
+    }
+    ?>
+?>
 <div class="page-wrapper">
 
     <!-- Preloader -->
@@ -377,7 +384,7 @@
                 
             <!--Default Links-->
             <ul class="default-links">
-                <li>Returning customer? <a href="#" data-toggle="modal" data-target="#schedule-box">Click here to login</a></li>
+                <li>Are you sure you want to purchase Our <a href="#" data-toggle="modal" data-target="#schedule-box"> <?php echo $products ?></a> with  the quantity of <a href="#" data-toggle="modal" data-target="#schedule-box"> <?php echo $quantity ?></a> </li>
             </ul>
                 
             <!--Billing Details-->
@@ -410,7 +417,7 @@
                                         <div class="form-group col-md-12 col-sm-12 col-xs-12">
                                             <div class="field-label">Address <sup>*</sup></div>
                                             <input type="email" name="field-name" value="" placeholder="Street Address">
-                                            <input class="address-two" type="email" name="field-name" value="" placeholder="Apartment, Suit unit etc (optional)">
+                                           
                                         </div>
                                         
                                         <!--Form Group-->
@@ -446,7 +453,7 @@
                                         <!--Form Group-->
                                         <div class="form-group col-md-6 col-sm-6 col-xs-12">
                                             <div class="field-label">Phone <sup>*</sup></div>
-                                            <input type="text" name="field-name" value="" placeholder="Select an option">
+                                            <input type="tel"max-length="12" name="field-name" value="" placeholder="Enter Number" >
                                         </div>
                                         
                                        
@@ -460,8 +467,8 @@
                                 <div class="sec-title"><h2>Your Order</h2></div>
                                 <div class="shop-order-box">
                                     <ul class="order-list">
-                                        <li>Prodcut<span>TOTAL</span></li>
-                                        <li>Electric Hummer x 1<span>$65.00</span></li>
+                                        <li>Product<span>TOTAL</span></li>
+                                        <li><?php echo $products ?><span>$65.00</span></li>
                                         <li>Subtotal<span class="dark">$65.00</span></li>
                                         <li>Shipping And Handling<span>Free Shipping</span></li>
                                         <li class="total">TOTAL<span class="dark">$65.00</span></li>

@@ -495,7 +495,7 @@
 
             <div class="event-search-form">
 
-                <form method="post" action="index.html">
+                <form method="post" action="checkout.php">
 
                     <div class="row">
 
@@ -505,17 +505,18 @@
 
                             <div class="input-outer">
 
-                                <select class="custom-select-box">
+                                <select class="custom-select-box" name="products">
+                                    <option selected disabled>Choose Products...</option>
 
-                                    <option>Products</option>
+                                 
 
-                                    <option>80,000UGX per 1 pack (Standard pack)
+                                    <option name="products" value="standardPack" >80,000UGX per 1 pack (Standard pack)
                                     </option>
 
-                                    <option>160,000UGX per 2 packs( Advanced pack)
+                                    <option name="products" value="AdvancedPark" >160,000UGX per 2 packs( Advanced pack)
                                     </option>
 
-                                    <option>240,000UGX per 3 pack(Premium pack)</option>
+                                    <option name="products" value="PremiumPack" >240,000UGX per 3 pack(Premium pack)</option>
 
                                   
 
@@ -539,17 +540,17 @@
 
                             <div class="input-outer">
 
-                                <select class="custom-select-box">
+                                <select name="quantity" class="custom-select-box">
 
-                                    <option>Quantity</option>
+                                    <option name="quantity" selected disabled> Choose Quantity..</option>
 
-                                    <option>1</option>
+                                    <option name="quantity" value="1" >1</option>
 
-                                    <option>5</option>
+                                    <option name="quantity" value="5" >5</option>
 
-                                    <option>10</option>
+                                    <option  name="quantity" value="10">10</option>
 
-                                    <option>20</option>
+                                    <option name="quantity" value="20" >20</option>
 
                                 </select>
 
