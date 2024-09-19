@@ -21,14 +21,7 @@
 </head>
 
 <body>
-    <?php
-    error_reporting(error_level:E_ALL);
-    if ($_POST){
-        $products=$_REQUEST["products"];
-        $quantity=$_REQUEST["quantity"];
-    }
-    ?>
-?>
+    
 <div class="page-wrapper">
 
     <!-- Preloader -->
@@ -319,18 +312,7 @@
 
 
     </header>
-    <?php 
-    $firstname= $_POST["firstname"];
-    $lastname =$_POST["lastname"];
-    $address =$_POST["address"];
-    $town =$_POST["town"];
-    $country =$_POST["country"];
-    $postcode =$_POST["postcode"];
-    $email =$_POST["email"];
-    $phone=$_POST["phone"];
-
-
-    ?>
+   
     <!-- Hidden bar back drop -->
     <div class="form-back-drop"></div>
 
@@ -376,14 +358,12 @@
         <div class="auto-container">
                 
             <!--Default Links-->
-            <ul class="default-links">
-                <li>Are you sure you want to purchase Our <a href="#" data-toggle="modal" data-target="#schedule-box"> <?php echo $products ?></a> with  the quantity of <a href="#" data-toggle="modal" data-target="#schedule-box"> <?php echo $quantity ?></a> </li>
-            </ul>
+            
                 
             <!--Billing Details-->
             <div class="billing-details">
                 <div class="shop-form">
-                    <form method="post" >
+                    <form method="post" Action="send-mail.php">
                         <div class="row clearfix">
                             <div class="col-lg-7 col-md-12 col-sm-12">
                 
@@ -409,7 +389,7 @@
                                         <!--Form Group-->
                                         <div class="form-group col-md-12 col-sm-12 col-xs-12">
                                             <div address="address" name="address" class="field-label">Address <sup>*</sup></div>
-                                            <input type="email"  value="" placeholder="Street Address">
+                                            <input type="text"  value="" placeholder="Street Address">
                                            
                                         </div>
                                         
@@ -445,8 +425,8 @@
                                         
                                         <!--Form Group-->
                                         <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                                            <div name="phone" class="field-label">Phone <sup>*</sup></div>
-                                            <input type="tel"max-length="12" value="" placeholder="Enter Number" >
+                                            <div name="phone"  class="field-label">Phone <sup>*</sup></div>
+                                            <input type="tel"max-length="12" value="" required placeholder="Enter Number" >
                                         </div>
                                         
                                        
@@ -461,7 +441,7 @@
                                 <div class="shop-order-box">
                                     <ul class="order-list">
                                         <li>Product<span>TOTAL</span></li>
-                                        <li> <?php echo $products ?><span>$65.00</span></li>
+                                      
                                         <li>Subtotal<span class="dark">$65.00</span></li>
                                         <li>Shipping And Handling<span>Free Shipping</span></li>
                                         <li class="total">TOTAL<span class="dark">$65.00</span></li>
@@ -489,7 +469,7 @@
                                             </ul>
                                         </div>
                                         
-                                        <button type="button" class="theme-btn btn-style-one"><span class="btn-title">Place Order</span></button>
+                                        <button type="submit" class="theme-btn btn-style-one"><span class="btn-title">Place Order</span></button>
                                         
                                     </div>
                                     <!--End Place Order-->
