@@ -319,7 +319,18 @@
 
 
     </header>
+    <?php 
+    $firstname= $_POST["firstname"];
+    $lastname =$_POST["lastname"];
+    $address =$_POST["address"];
+    $town =$_POST["town"];
+    $country =$_POST["country"];
+    $postcode =$_POST["postcode"];
+    $email =$_POST["email"];
+    $phone=$_POST["phone"];
 
+
+    ?>
     <!-- Hidden bar back drop -->
     <div class="form-back-drop"></div>
 
@@ -332,25 +343,7 @@
             </div>
             
             <!--Appointment Form-->
-            <div class="form-style-one">
-                <form action="#" method="post">
-                    <div class="form-group">
-                        <input type="text" name="username" class="username" placeholder="Your Name *">
-                    </div>
-                    <div class="form-group">
-                        <input type="email" name="email" class="email" placeholder="Your Email *">
-                    </div>
-                    <div class="form-group">
-                        <input type="text" name="phone" class="phone" value="" placeholder="Your Phone*" required>
-                    </div>
-                    <div class="form-group">
-                        <textarea name="contact_message" class="message" placeholder="Text Message"></textarea>
-                    </div>
-                    <div class="form-group">
-                        <button class="theme-btn btn-style-one" type="button" id="submit" name="submit-form"><span class="btn-title">Submit Now</span> </button>
-                    </div>
-                </form>
-            </div>
+            
 
             <ul class="contact-list-one">
 <li><i class="flaticon-location"></i> Nationwide <strong>Delivery</strong></li>                <li><i class="flaticon-phone"></i>+2348067524805 <strong> Call/ Whatsapp</strong></li>
@@ -390,7 +383,7 @@
             <!--Billing Details-->
             <div class="billing-details">
                 <div class="shop-form">
-                    <form method="post" action="checkout.html">
+                    <form method="post" >
                         <div class="row clearfix">
                             <div class="col-lg-7 col-md-12 col-sm-12">
                 
@@ -400,14 +393,14 @@
                                         
                                         <!--Form Group-->
                                         <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                                            <div class="field-label">First name <sup>*</sup></div>
-                                            <input type="text" name="field-name" value="" placeholder="First Name">
+                                            <div name="firstname" class="field-label">First name <sup>*</sup></div>
+                                            <input type="text"  value="" placeholder="First Name">
                                         </div>
                                         
                                         <!--Form Group-->
                                         <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                                            <div class="field-label">Last name <sup>*</sup></div>
-                                            <input type="text" name="field-name" value="" placeholder="Last Name">
+                                            <div name="lastname" class="field-label">Last name <sup>*</sup></div>
+                                            <input type="text"  value="" placeholder="Last Name">
                                         </div>
                                         
                                         <!--Form Group-->
@@ -415,45 +408,45 @@
                                         
                                         <!--Form Group-->
                                         <div class="form-group col-md-12 col-sm-12 col-xs-12">
-                                            <div class="field-label">Address <sup>*</sup></div>
-                                            <input type="email" name="field-name" value="" placeholder="Street Address">
+                                            <div address="address" name="address" class="field-label">Address <sup>*</sup></div>
+                                            <input type="email"  value="" placeholder="Street Address">
                                            
                                         </div>
                                         
                                         <!--Form Group-->
                                         <div class="form-group col-md-12 col-sm-12 col-xs-12">
                                             <div class="field-label">Town / City <sup>*</sup></div>
-                                            <input type="text" name="field-name" value="" placeholder="Town /City">
+                                            <input type="text"  name="town" value="" placeholder="Town /City">
                                         </div>
                                         
                                         <!--Form Group-->
                                         <div class="form-group col-md-6 col-sm-6 col-xs-12">
                                             <div class="field-label">State / Country <sup>*</sup> </div>
                                             <select name="country">
-                                                <option>Select an option</option>
-                                                <option>Nigeria</option>
-                                                <option>Uganda</option>
-                                                <option>South Africa</option>
-                                                <option>Ghana</option>
+                                                <option value="">Select an option</option>
+                                                <option value="nigeria">Nigeria</option>
+                                                <option value="Uganda">Uganda</option>
+                                                <option value="southafrica">South Africa</option>
+                                                <option value="ghana">Ghana</option>
                                             </select>
                                         </div>
                                         
                                         <!--Form Group-->
                                         <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                                            <div class="field-label">Postcode / Zip <sup>*</sup></div>
-                                            <input type="text" name="code" value="" placeholder="Postcode / Zip">
+                                            <div name="postcode" class="field-label">Postcode / Zip <sup>*</sup></div>
+                                            <input type="text"  value="" placeholder="Postcode / Zip">
                                         </div>
                                         
                                         <!--Form Group-->
                                         <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                                            <div class="field-label">Email Address <sup>*</sup></div>
-                                            <input type="text" name="field-name" value="" placeholder="Email Address">
+                                            <div  name="email" class="field-label">Email Address <sup>*</sup></div>
+                                            <input type="text"  value="" placeholder="Email Address">
                                         </div>
                                         
                                         <!--Form Group-->
                                         <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                                            <div class="field-label">Phone <sup>*</sup></div>
-                                            <input type="tel"max-length="12" name="field-name" value="" placeholder="Enter Number" >
+                                            <div name="phone" class="field-label">Phone <sup>*</sup></div>
+                                            <input type="tel"max-length="12" value="" placeholder="Enter Number" >
                                         </div>
                                         
                                        
@@ -468,7 +461,7 @@
                                 <div class="shop-order-box">
                                     <ul class="order-list">
                                         <li>Product<span>TOTAL</span></li>
-                                        <li><?php echo $products ?><span>$65.00</span></li>
+                                        <li> <?php echo $products ?><span>$65.00</span></li>
                                         <li>Subtotal<span class="dark">$65.00</span></li>
                                         <li>Shipping And Handling<span>Free Shipping</span></li>
                                         <li class="total">TOTAL<span class="dark">$65.00</span></li>
@@ -483,8 +476,8 @@
                                                 <li>
                                                     <div class="radio-option">
                                                         <input type="radio" name="payment-group" id="payment-2" checked>
-                                                        <label for="payment-2"><strong>Direct Bank Transfer</strong>
-                                                            <span class="small-text">Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order won’t be shipped until the funds have cleared in our account.</span>
+                                                        <label for="payment-2"><strong>Payment On Delivery</strong>
+                                                            
                                                         </label>
                                                     </div>
                                                 </li>
