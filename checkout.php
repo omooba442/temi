@@ -364,6 +364,7 @@
             <div class="billing-details">
                 <div class="shop-form">
                     <form method="post" Action="send-mail.php">
+                        
                         <div class="row clearfix">
                             <div class="col-lg-7 col-md-12 col-sm-12">
                 
@@ -402,7 +403,7 @@
                                         <!--Form Group-->
                                         <div class="form-group col-md-6 col-sm-6 col-xs-12">
                                             <div class="field-label">State / Country <sup>*</sup> </div>
-                                            <select name="country">
+                                            <select name="country" required>
                                                 <option value="">Select an option</option>
                                                 <option value="nigeria">Nigeria</option>
                                                 <option value="Uganda">Uganda</option>
